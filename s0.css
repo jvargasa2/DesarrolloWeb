@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Arial;
+    margin: 0;
+    padding: 0;
+    background: rgb(62, 244, 81);
+    background-image: url(https://media.istockphoto.com/id/1299612203/es/foto/mosaico-cer%C3%A1mico-en-formas-de-rompecabezas.jpg?s=1024x1024&w=is&k=20&c=yN5oASmCMsgJtBGkJ_2_ye1IiB0_rLvBHHk4Zi6pQms=);
+    color: #e06a6a;
+}
+
+header {
+    background: #b80000;
+    color: white;
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    background-image: url(https://i.pinimg.com/1200x/cc/0d/5c/cc0d5c3a25a5333ef3ff77e66d85cf02.jpg);
+}
+
+nav {
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav h1 {
+    color: rgb(0, 0, 0);
+    margin: 0 1rem 0;
+    font-size: 2.2rem;
+}
+nav ul {
+
+    font-family: 'Segoe UI', Arial;
+    list-style: none;
+    padding: 0;
+    display: flex;  
+    gap: 2rem;
+    color: #b80000;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;  
+    transition: color 0.2s;
+}
+
+nav ul li a:hover {
+    color: rgb(246, 125, 226);
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: rgb(224, 221, 227);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    background-image: url(https://es.vecteezy.com/foto/14887315-mosaico-de-azulejos-antiguos-ideal-para-el-fondo-de-artes-y-oficios-patron-de-estilo-oriental-el-concepto-de-decorar-una-habitacion-o-papel-tapiz-para-publicidad) 
+}   
+section {
+    color: #0000b8;
+    background: rgb(255, 255, 255);
+    margin-bottom: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+h2 {
+    color: #5a001e;
+    margin-top: 0;
+}
+footer {
+    color: #0000b8;
+    text-align: center;
+    padding: 1rem 0;
+    background: #ccff96;
+}
