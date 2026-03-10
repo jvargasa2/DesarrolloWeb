@@ -57,9 +57,12 @@ main {
     background-image: url(https://es.vecteezy.com/foto/14887315-mosaico-de-azulejos-antiguos-ideal-para-el-fondo-de-artes-y-oficios-patron-de-estilo-oriental-el-concepto-de-decorar-una-habitacion-o-papel-tapiz-para-publicidad) 
 }   
 section {
-    color: #0000b8;
+    color: #000000;
     background: rgb(255, 255, 255);
     margin-bottom: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
 }
 h2 {
     color: #5a001e;
