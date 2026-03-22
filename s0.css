@@ -2,8 +2,8 @@ body {
     font-family: 'Segoe UI', Arial;
     margin: 0;
     padding: 0;
-    background: rgb(62, 244, 81);
     background-image: url(https://preview.redd.it/fine-art-generated-from-one-year-of-nvidia-nvda-market-data-v0-1u9f9uvgw16g1.jpg?width=640&crop=smart&auto=webp&s=e0dd9d1c69e613ebf138d4161b210633953013dd);
+    background: rgb(0, 0, 0);
     color: #e06a6a;
 }
 
@@ -374,127 +374,20 @@ h6 {
 
 
 
-nav {
-    color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-nav h1 {
-    color: rgb(0, 0, 0);
-    margin: 0 1rem 0;
-    font-size: 2.2rem;
-}
-nav ul {
 
-    font-family: 'Segoe UI', Arial;
-    list-style: none;
-    padding: 0;
-    display: flex;  
-    gap: 2rem;
-    color: #b80000;
-}
-
-nav ul li a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-weight: bold;  
-    transition: color 0.2s;
-}
-
-nav ul li a:hover {
-    color: rgb(246, 125, 226);
-}
-/* #region hero */
-        /*----------------------------------------------------------------------------------------------
-        # Hero Section
-        /* Títulos y Párrafos */
-        /* Corrección de la sección Hero */
-        #hero {
-        /* Aseguramos que el fondo sea oscuro y ocupe espacio */
-        background: linear-gradient(135deg, #0f172a, #1e293b) !important;
-        padding: 100px 0;
-        min-height: 80vh;
-        display: flex;
-        align-items: center;
-        color: #ffffff !important; /* Forzamos texto blanco */
-        }
-
-        /* Asegurar que los contenedores no hereden fondos blancos de 'section' */
-        #hero.section {
-            background: transparent;
-            box-shadow: none;
-        }
-
-        #hero .container {
-        background: transparent !important;
-        }
-
-        /* Títulos y Párrafos */
-        .hero .hero-content h1 {
-        font-size: 3.5rem;
-        font-weight: 700;
-        color: #ffffff !important;
-        margin-bottom: 20px;
-        }
-
-        .hero .accent-text {
-        color: #22e7a1; /* Usando tu variable de acento verde */
-        display: block;
-        }
-
-        .hero .hero-description {
-        font-size: 1.2rem;
-        color: #cbd5e1 !important;
-        margin-bottom: 30px;
-        max-width: 600px;
-        }
-
-        /* Estilos para los items de estadística */
-        .hero .hero-stats {
-        display: flex;
-        gap: 30px;
-        margin-top: 40px;
-        }
-
-        .hero .stat-item {
-        display: flex;
-        flex-direction: column;
-        }
-
-        .hero .stat-number {
-        font-size: 2rem;
-        font-weight: 700;
-        color: #22e7a1;
-        }
-
-        .hero .stat-label {
-        font-size: 0.8rem;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        color: #94a3b8;
-        }
-
-        /* Ajuste de imagen para que no desaparezca */
-        .hero .hero-image img {
-            width: 100%;
-            height: auto;
-            border-radius: 20px;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-        }
-        
-/* #endregion */
 main {
     max-width: 100%; /* Deja que ocupe el ancho necesario */
     margin: 0;
     background: rgb(64, 17, 111);
+    background:transparent;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     padding: 2rem;
-    background-image: url(https://es.vecteezy.com/foto/14887315-mosaico-de-azulejos-antiguos-ideal-para-el-fondo-de-artes-y-oficios-patron-de-estilo-oriental-el-concepto-de-decorar-una-habitacion-o-papel-tapiz-para-publicidad) 
 }  
-
+main-content {
+  margin-left: 220px; /* mismo ancho que navbar */
+}
 section {
     color: #000000;
     background: rgb(255, 255, 255);
@@ -503,10 +396,11 @@ section {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     padding: 2rem;
 }
-h2 {
-    color: #5a001e;
-    margin-top: 0;
+section {
+  min-height: 100vh;
+  padding: 60px 40px;
 }
+
 
 /* #region footer */
 footer {
