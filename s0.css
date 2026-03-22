@@ -483,11 +483,12 @@ nav ul li a:hover {
             border-radius: 20px;
             box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
         }
+        
 /* #endregion */
 main {
     max-width: 100%; /* Deja que ocupe el ancho necesario */
     margin: 0;
-    background: rgb(158, 69, 246);
+    background: rgb(64, 17, 111);
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     padding: 2rem;
@@ -506,11 +507,131 @@ h2 {
     color: #5a001e;
     margin-top: 0;
 }
+
+/* #region footer */
 footer {
-    color: #0000b8;
+    color: #ffffff;
     text-align: center;
-    padding: 1rem 0;
-    background: #ccff96;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+/* #region FOOTER SECTION */
+.footer {
+background: rgb(0, 0, 0);
+  font-size: 14px;
+  text-align: center;
+  padding: 50px 0;
+  position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Ajuste para que el footer respete el sidebar en desktop */
+@media (min-width: 1200px) {
+  .footer {
+    margin-left: 300px;
+  }
+}
+
+footer h3 {
+  font-size: 28px; /* Un poco más pequeño para elegancia */
+  font-weight: 700;
+  color: var(--heading-color);
+  margin: 0 0 15px 0;
+  font-family: var(--heading-font);
+}
+
+footer p {
+  font-size: 20px; /* Corregido: añadido 'px' */
+  font-style: italic;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+
+footer .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+footer .social-links a {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: color-mix(in srgb, var(--default-color), transparent 90%);
+  color: var(--default-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+footer .social-links a:hover {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+  transform: translateY(-3px); /* Efecto sutil al pasar el mouse */
+}
+
+footer .copyright {
+  padding-top: 25px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  font-weight: 300;
+}
+
+footer .credits {
+  font-size: 12px;
+  padding-top: 8px;
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
+}
+/* #endregion */
+/* #endregion */
+
+.footer {
+  background: #0a0f1c;
+  color: #ffffff;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+  gap: 30px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  color: #00c3ff;
+  font-size: 18px;
+}
+
+.footer-section p {
+  margin: 5px 0;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #1e2a3a;
+  margin-top: 30px;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #888;
+}
+
+
+
 /* #region COLORES GLOBALES */
 /* #endregion */
